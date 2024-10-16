@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Activity 3</title>
+    </head>
+    <body>
+        <h2>Javascript variable</h2>
+        <!--Inside Head-->
+        <p id="p1"></p>
+        <p id="p2"></p>
+        <h3 id="p3"></h3>
+        <p id="p4"></p>
+        <p id="p5"></p>
+        <p id="p6"></p>
+        <p id="p7"></p>
+        <p id="p8"></p>
+        <script>
+            var a = 4; //statement 1
+            var b = 6; //statement 2
+            var text = "Hello World"; //statement 3
+            var sum = a + b; //statement4
+            var difference = a - b; //statement 5
+            var product = a * b; //statement 6
+            var quotion = a / b; //statement 7
+            var reminder = a % b; //statement 8
+            document.getElementById("p1").innerHTML = "a";
+            document.getElementById("p2").innerHTML = "b";
+            document.getElementById("p3").innerHTML = "text";
+            // addition
+            document.getElementById("p4").innerHTML = " Sum of " + a + " and " + b + " is " + sum;
+            //subtraction
+            document.getElementById("p5").innerHTML = "Difference of " +a+ " and " +b+ " is " + difference;
+            //multiplication
+            document.getElementById("p6").innerHTML = "Product of " +a+ " and " +b+ " is " + product;
+            //division
+            document.getElementById("p7").innerHTML = "Quotion of " +a+ " and " +b+ " is " +quotion;
+            //reminder
+            document.getElementById("p8").innerHTML = "Reminder of " +a+ " and " +b+ " is " +reminder;
+        </script>
+</body>
+</html>
